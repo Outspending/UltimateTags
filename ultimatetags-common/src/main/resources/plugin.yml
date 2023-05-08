@@ -1,0 +1,4 @@
+name: UltimateTags
+version: 1.0.0
+main: me.outspending.ultimatetags.UltimateTags
+api-version: 1.17

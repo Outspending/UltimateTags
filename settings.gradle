@@ -1,0 +1,4 @@
+rootProject.name = 'UltimateTags'
+include 'ultimatetags-api'
+include 'ultimatetags-common'
+

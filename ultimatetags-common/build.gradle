@@ -1,0 +1,12 @@
+plugins {
+    id 'com.github.johnrengelman.shadow' version '7.1.2'
+}
+
+dependencies {
+    compileOnly "io.papermc.paper:paper-api:1.17-R0.1-SNAPSHOT"
+    implementation project(":ultimatetags-api")
+}
+
+shadowJar {
+    destinationDirectory = file("D:\\Testing Server\\plugins")
+}
